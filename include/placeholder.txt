@@ -1,1 +1,5 @@
-/include holds all the include files. Shocking, I know.
+/include holds all the include files. Shocking, I know. 
+
+This file just helps github find this otherwise empty folder. 
+
+Delete when /include has an actual file.
