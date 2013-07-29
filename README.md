@@ -1,12 +1,12 @@
-CMS
+Description
 ===
 
-A new CMS with the intent to transform into a social CMS.
+An open source project. A CMS without a name (yet), with the intent to transform into a social CMS.
 
 Goals
 ===
 
-The goal of this project is to make a simple CMS that can be expanded into a fully featured Social CMS.
+The goal of this project is to make a simple open source CMS that can be expanded into a fully featured open source Social CMS. This project will either be expanded into a Social CMS over time or forked into a separate project and the original CMS left intact.
 
 Development Focus
 ===
@@ -15,6 +15,7 @@ In no order...
 
 1. themable
 2. pluggable
+3. hookable
 3. easily modified through a single file (think functions.php)
 4. readable code
 5. SEO friendly
