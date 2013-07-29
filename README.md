@@ -17,6 +17,7 @@ In no order...
 2. pluggable
 3. hookable
 3. easily modified through a single file (think functions.php)
+4. widget areas
 4. readable code
 5. SEO friendly
 6. fast page load times
