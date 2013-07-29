@@ -1,0 +1,5 @@
+/admin holds all the admin backend files. Shocking, I know. 
+
+This file just helps github find this otherwise empty folder. 
+
+Delete when /admin has an actual file.
