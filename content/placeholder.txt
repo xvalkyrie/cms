@@ -1,5 +1,0 @@
-/content holds all the content frontend files. Shocking, I know. 
-
-This file just helps github find this otherwise empty folder. 
-
-Delete when /content has an actual file.
