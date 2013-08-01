@@ -8,8 +8,12 @@
 
  * This file has the following editable configurations: Debugging, Timezone, MySQL settings, 
  
- * Paths, and Site Info.
+ * and Site Info.
 
+ *
+ 
+ * You really should not edit Paths unless you know why you're doing it.
+ 
  *
 
  * Upcoming Feature - This file will be modified by the install script during the installation. 
@@ -76,24 +80,6 @@ define('DB_PASSWORD', $dbPassword);
 define('DB_HOST', $dbHost);
 
 
-/* 
- * Paths - Defines folder paths
- *
- * Don't change anything unless you know what you'r doing.
- *
- */
- 
- 
-// CLass path
-define('CLASS_PATH', 'classes');
-
-// Template path
-define('TEMPLATE_PATH', 'templates');
-
-// Plugin path
-define('PLUGIN_PATH', 'plugins');
-
-
 /*
  * Site Info - admin name and pass, how many articles to display 
  *
@@ -113,6 +99,33 @@ define('ADMIN_PASS', 'admin123');
 
 // END EDITABLE AREAS 
 
+/* 
+ * Paths - Defines folder paths
+ *
+ * Don't change anything unless you know what you're doing.
+ *
+ */
+ 
+ 
+// CLass path
+define('CLASS_PATH', 'classes');
+
+// Template path
+define('TEMPLATE_PATH', 'templates');
+
+// Plugin path
+define('PLUGIN_PATH', 'plugins');
+
+
+/*
+ * DEV NOTE
+ * 
+ * article.php does not exist yet
+ *
+ * END
+ */
+ 
+// get article class path
 require(CLASS_PATH . '/article.php');
 
 /*  
