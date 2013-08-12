@@ -20,7 +20,7 @@
 
  * Until then you can just fill in these values manually.
 
- *
+ * Also, some of this should really be managed in the Admin section.
  
  *
 
@@ -83,7 +83,7 @@ define('DB_HOST', $dbHost);
 /*
  * Site Info - admin name and pass, how many articles to display 
  *
- * This is crude. Put these in their appropriate areas in future updates.
+ * This is crude. Put all of these in their appropriate areas in future updates.
  *
  */
 
@@ -108,13 +108,13 @@ define('ADMIN_PASS', 'admin123');
  
  
 // CLass path
-define('CLASS_PATH', 'classes');
+define('CLASS_PATH', '/include/classes/');
 
-// Template path
-define('TEMPLATE_PATH', 'templates');
+// Theme path
+define('THEME_PATH', '/content/themes/');
 
 // Plugin path
-define('PLUGIN_PATH', 'plugins');
+define('PLUGIN_PATH', '/content/plugins/');
 
 
 /*
@@ -134,7 +134,7 @@ require(CLASS_PATH . '/article.php');
  * Displays a simple message to the user and logs the error for debugging.
  *
  * This exception handler is quick and dirty. The best way to handle exceptions is 
- * to wrap all the PDO calls within article.php in try & catch blocks. 
+ * to wrap all the PDO calls in try & catch blocks. 
  * See http://php.net/manual/en/language.exceptions.php
  *
  */

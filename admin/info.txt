@@ -1,3 +1,0 @@
-/admin holds all the admin backend files. Shocking, I know. 
-
-This file can be deleted later.
