@@ -117,13 +117,6 @@ define('THEME_PATH', '/content/themes/');
 define('PLUGIN_PATH', '/content/plugins/');
 
 
-/*
- * DEV NOTE
- * 
- * article.php does not exist yet
- *
- * END
- */
  
 // get article class path
 require(CLASS_PATH . '/article.php');
